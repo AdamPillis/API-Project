@@ -94,5 +94,6 @@ function displayException(data) {
 
     document.getElementById('resultsModalTitle').innerText = heading;
     document.getElementById('results-content').innerHTML = results;
+    
     resultsModal.show();
 }
